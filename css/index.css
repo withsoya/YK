@@ -849,15 +849,16 @@ footer {
     .cont01 > div .text {
         width: 100%;
         position: absolute;
-        top: 23%; /* ?????????? */
+        top: 23%;
     }
     .cont01 > div .text p:nth-of-type(1) {
         margin-bottom: 40px;
     }
     .cont01 > div .img {
-        width: 60%;
+        width: 80%;
         position: absolute;
-        right: 50%;
+        left: 50%;
+        transform: translateX(-50%);
         bottom: 0;
     }
 
@@ -876,7 +877,7 @@ footer {
         margin-bottom: 40px;
     }
     .cont02_in > div > a > div {
-        width: 30%;
+        width: 50%;
     }
     .cont02_in > div:nth-child(4) {
         display: none;
